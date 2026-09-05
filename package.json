@@ -1,0 +1,18 @@
+{
+  "name": "electronic-store-manager",
+  "version": "4.0.0",
+  "private": true,
+  "description": "Electronics inventory management — browser frontend, Go REST API, PostgreSQL on Supabase.",
+  "scripts": {
+    "dev": "npx serve frontend -l 3000",
+    "dev:api": "cd backend && go run .",
+    "build": "echo \"The frontend is static — nothing to build.\"",
+    "migrate": "cd backend && go run . -migrate-only",
+    "create-admin": "cd backend && go run . -create-admin",
+    "test:api": "cd backend && go vet ./... && go build ./..."
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "UNLICENSED"
+}

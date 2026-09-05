@@ -1,0 +1,23 @@
+# Secrets
+.env
+.env.local
+backend/.env
+
+# Go build output
+backend/esm-backend
+backend/esm-backend.exe
+backend/bin/
+
+# Node
+node_modules/
+.vercel/
+
+# Editors / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local exports
+*.pptx
+backups/*.json

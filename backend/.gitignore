@@ -1,0 +1,19 @@
+# Secrets
+.env
+.env.local
+.env.*.local
+
+# Build output
+esm-backend
+esm-backend.exe
+/bin/
+/dist/
+*.test
+
+# Editors / OS
+.idea/
+.vscode/
+.DS_Store
+
+# Local backup dumps
+/backups/*.json
